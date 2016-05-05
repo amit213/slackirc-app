@@ -12,7 +12,7 @@
     "channelMapping": {
       "#foo123": "#irc-channel",
        "#ostack-containers" : "#openstack-containers",
-       "#slack-juju" : "#juju",
+       "#slack-linux" : "##linux",
 
 
        "#random": "#new-irc-channel"
