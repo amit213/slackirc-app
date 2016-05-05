@@ -25,19 +25,21 @@ Original module: https://github.com/ekmartin/slack-irc
 <pre>
 git clone https://github.com/amit213/slackirc-app.git
 </pre>
-8. Within your cloned repo, please modify `irc-slack-config.json` to update all the **TODO** mentions with your information, including your slack API token
+8. Within your cloned repo, please modify `irc-slack-config.json` to update all the **TODO** mentions with your information, including your slack API token.
 9. **Required**: Build and Run docker compose using following commands
 <pre>
 $ cd slackirc-app
 $ docker-compose build --force-rm --no-cache
 $ docker-compose up -d
 $ docker-compose ps  (Confirm that your container is running properly, and that it has not gone in a exit-restart loop)
-
 </pre>
-10. .
+10. Create new channels in Slack, corresponding to the IRC channel names and add them to `irc-slack-config.json` as needed
 
 
 
+### Tips and Troubleshooting
+
+* Successful `docker-compose build` command will result into below output
 <pre>
 Step 10 : CMD node /usr/src/app/index.js --config /usr/src/app/irc-slack-config.json
  ---> Running in a97517e9d629
@@ -45,7 +47,6 @@ Step 10 : CMD node /usr/src/app/index.js --config /usr/src/app/irc-slack-config.
 Removing intermediate container a97517e9d629
 Successfully built ed0cdd6dfaf3
 user@linuxVM1:~/slackirc-app$
-
 </pre>
 
 
