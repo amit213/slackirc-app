@@ -34,7 +34,7 @@ $ docker-compose up -d
 $ docker-compose ps  (Confirm that your container is running properly, and that it has not gone in a exit-restart loop)
 </pre>
 10. Create new channels in Slack, corresponding to the IRC channel names and add them to `irc-slack-config.json` as needed
-11. Verify that this Slack-IRC integration is working by going to `random` channel in Slack, and type your name, and it'll echo it back.
+11. Verify if your Slack-IRC integration is working by going to `random` channel in Slack UI (App or WebUI), and type your name. It'll echo it back.
 
 
 ### Tips and Troubleshooting
