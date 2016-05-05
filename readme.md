@@ -1,2 +1,2 @@
+# Containerized Slack-IRC bridge module
 
-void is main
