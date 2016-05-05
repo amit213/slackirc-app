@@ -54,6 +54,8 @@ Removing intermediate container a97517e9d629
 Successfully built ed0cdd6dfaf3
 user@linuxVM1:~/slackirc-app$
 </pre>
+**Successful output looks like this**
+![output](https://raw.githubusercontent.com/amit213/placeholder/master/resources/images/docker-compose%20output.png)
 
 
 ## License
