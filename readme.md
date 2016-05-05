@@ -1,6 +1,6 @@
 ## Containerized Slack-IRC bridge module
 
-### What does this do?
+### What does this tool achieve?
 
 You're a heavy or a casual IRC user. However, lack of a good native smart-phone app for IRC (i.e. IRC client) compels you look for solution(s). Here is a solution that will likely work for you.
 
