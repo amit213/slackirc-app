@@ -21,6 +21,12 @@ Original module: https://github.com/ekmartin/slack-irc
 4. Log in to your **slack.com** account, and generate your Slack API user token at https://api.slack.com/docs/oauth-test-tokens
 5. This token will be long alphnumeric string token composed of numbers and characters. Save it, as you'll need this later.
 6. **Required**: Go to your slack home page https://**your-team-name**.slack.com/admin/settings#gateways and look for **Permissions** tab. Once you get there, scroll down and look for **Gateways** setting. Hit `expand` and click `Enable IRC gateway (SSL only)` setting to enable it.
+<br> </br>
+**Permissions setting**
+![Team Setting](https://raw.githubusercontent.com/amit213/placeholder/master/resources/images/team-setting-slack.jpg)
+<br> </br>
+**IRC Gateway setting**
+![IRC Gateway](https://raw.githubusercontent.com/amit213/placeholder/master/resources/images/enabling-irc-gateway.png)
 7. Git clone this repo:
 <pre>
 git clone https://github.com/amit213/slackirc-app.git
