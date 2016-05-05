@@ -13,7 +13,7 @@ Use this bridge module, and now your native Slack app is your always-on offline-
 This docker wrapper uses the nodejs based bot module written by ekmartin, open sourced under MIC License.
 Original module: https://github.com/ekmartin/slack-irc
 
-### How to install and use this?
+### How to install and use this?  (below is a one-time setup procedure)
 
 1. **Required**: Linux based VM / machine with outbound access to internet. (i.e. ping google.com works)
 2. Install docker and docker-compose on the VM / machine. (Use this [guide](https://docs.docker.com/linux/step_one/), Docker-compose install [guide](https://docs.docker.com/compose/install/))
@@ -21,12 +21,12 @@ Original module: https://github.com/ekmartin/slack-irc
 4. Log in to your **slack.com** account, and generate your Slack API user token at https://api.slack.com/docs/oauth-test-tokens
 5. This token will be long alphnumeric string token composed of numbers and characters. Save it, as you'll need this later.
 6. Git clone this repo:
-
 <pre>
 git clone https://github.com/amit213/slackirc-app.git
 </pre>
+7. Modify `irc-slack-config.json` inside your cloned repo, to update all references of **TODO** with your specific information
+8. 
 
-7. 
 
 
 ## License
