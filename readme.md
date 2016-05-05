@@ -34,7 +34,7 @@ $ docker-compose build --force-rm --no-cache
 $ docker-compose up -d
 $ docker-compose ps  (Confirm that your container is running properly, and that it has not gone in a exit-restart loop)
 </pre>
-11. Verify if your Slack-IRC integration is working by going to `random` channel in Slack UI (App or WebUI), and type your name. It'll echo it back.
+11. Verify if your Slack-IRC integration is working by going to `random` channel in Slack UI (App or WebUI), and typing in your name. It'll echo it back.
 
 
 ### Tips and Troubleshooting
