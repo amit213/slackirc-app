@@ -1,0 +1,16 @@
+
+slackircbridge:
+  mem_limit: 128m
+  build: slack-irc/.
+  hostname: slackircbridge
+  domainname: block51.net
+  container_name: slackircbridge
+  #net: "bridge"
+  restart: always
+  #ports:
+  #  - "80:80"
+  volumes:
+      - ./irc-slack-config.json:/usr/src/app/irc-slack-config.json
+  environment:
+     - USER=1050
+

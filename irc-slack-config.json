@@ -1,0 +1,30 @@
+[
+  {
+    "nickname": "TODO-your-IRC-NIC",
+    "server": "irc.freenode.com",
+    "token": "TODO-your-Slack-Token-abc123",
+    "autoSendCommands": [
+        ["MODE", "TODO-your-IRC-NIC", "+i"],
+        ["MODE", "TODO-your-IRC-NIC", "+x"],
+        ["MODE", "TODO-your-IRC-NIC", "+r"],
+        ["AUTH", "TODO-your-IRC-NIC", "TODO-your-IRC-NIC-password"]
+    ],
+    "channelMapping": {
+      "#foo123": "#irc-channel",
+       "#ostack-containers" : "#openstack-containers",
+       "#slack-juju" : "#juju",
+
+
+       "#random": "#new-irc-channel"
+
+    }
+  },
+  {
+    "nickname": "YOUR-echo222",
+    "server": "irc.freenode.com",
+    "token": "TODO-your-Slack-Token-abc123",
+    "channelMapping": {
+      "#random": "#new-irc-channel"
+    }
+  }
+]
