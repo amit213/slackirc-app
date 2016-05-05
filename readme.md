@@ -32,7 +32,7 @@ git clone https://github.com/amit213/slackirc-app.git
 $ cd slackirc-app
 $ docker-compose build --force-rm --no-cache
 $ docker-compose up -d
-$ docker-compose ps  (Confirm that your container is running properly, and that it has not gone in a exit-restart loop)
+$ docker-compose ps  (To confirm that your container is running properly, and that it has not gone in an exit-restart loop)
 </pre>
 11. Verify if your Slack-IRC integration is working by going to `random` channel in Slack UI (App or WebUI), and typing in your name. It'll echo it back.
 
