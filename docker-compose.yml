@@ -3,7 +3,7 @@ slackircbridge:
   mem_limit: 128m
   build: slack-irc/.
   hostname: slackircbridge
-  domainname: block51.net
+  domainname: tld.net
   container_name: slackircbridge
   #net: "bridge"
   restart: always
