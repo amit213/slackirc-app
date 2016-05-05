@@ -15,18 +15,38 @@ Original module: https://github.com/ekmartin/slack-irc
 
 ### How to install and use this?  (below is a one-time setup procedure)
 
-1. **Required**: Linux based VM / machine with outbound access to internet. (i.e. ping google.com works)
+1. **Required**: Linux based VM / machine with outbound access to internet. (i.e. ping google.com should work) (*Avg. 1-CPU, 756mb ram, 15GB disk should suffice.*)
 2. Install docker and docker-compose on the VM / machine. (Use this [guide](https://docs.docker.com/linux/step_one/), Docker-compose install [guide](https://docs.docker.com/compose/install/))
 3. Verify that your userid / login has required access to invoke docker commands. (i.e. `docker ps` should run successfully)
 4. Log in to your **slack.com** account, and generate your Slack API user token at https://api.slack.com/docs/oauth-test-tokens
 5. This token will be long alphnumeric string token composed of numbers and characters. Save it, as you'll need this later.
-6. Git clone this repo:
+6. **Required**: Go to your slack home page https://**your-team-name**.slack.com/admin/settings#gateways and look for **Permissions** tab. Once you get there, scroll down and look for **Gateways** setting. Hit `expand` and click `Enable IRC gateway (SSL only)` setting to enable it.
+7. Git clone this repo:
 <pre>
 git clone https://github.com/amit213/slackirc-app.git
 </pre>
-7. Modify `irc-slack-config.json` inside your cloned repo, to update all references of **TODO** with your specific information
-8. 
+8. Within your cloned repo, please modify `irc-slack-config.json` to update all the **TODO** mentions with your information, including your slack API token
+9. **Required**: Build and Run docker compose using following commands
+<pre>
+$ cd slackirc-app
+$ docker-compose build --force-rm --no-cache
+$ docker-compose up -d
+$ docker-compose ps  (Confirm that your container is running properly, and that it has not gone in a exit-restart loop)
 
+</pre>
+10. .
+
+
+
+<pre>
+Step 10 : CMD node /usr/src/app/index.js --config /usr/src/app/irc-slack-config.json
+ ---> Running in a97517e9d629
+ ---> ed0cdd6dfaf3
+Removing intermediate container a97517e9d629
+Successfully built ed0cdd6dfaf3
+user@linuxVM1:~/slackirc-app$
+
+</pre>
 
 
 ## License
