@@ -15,6 +15,19 @@ Original module: https://github.com/ekmartin/slack-irc
 
 ### How to install and use this?
 
+1. **Required**: Linux based VM / machine with outbound access to internet. (i.e. ping google.com works)
+2. Install docker and docker-compose on the VM / machine. (Use this [guide](https://docs.docker.com/linux/step_one/), Docker-compose install [guide](https://docs.docker.com/compose/install/))
+3. Verify that your userid / login has required access to invoke docker commands. (i.e. `docker ps` should run successfully)
+4. Log in to your **slack.com** account, and generate your Slack API user token at https://api.slack.com/docs/oauth-test-tokens
+5. This token will be long alphnumeric string token composed of numbers and characters. Save it, as you'll need this later.
+6. Git clone this repo:
+
+<pre>
+git clone https://github.com/amit213/slackirc-app.git
+</pre>
+
+7. 
+
 
 ## License
 
