@@ -2,6 +2,8 @@
 
 ### What does this tool achieve?
 
+Enables you to use Slack App (IOS or Android) as a full-fledged IRC client.
+
 You're a heavy or a casual IRC user. However, lack of a good native smart-phone app for IRC (i.e. IRC client) compels you to look for alternate solution(s). Here is a solution that will likely work for you.
 
 **Required**: Get yourself a free Slack account [here](https://slack.com/), and download the native app for your smartphone ([IOS](https://itunes.apple.com/us/app/slack-team-communication/id618783545?mt=8), [Android](https://play.google.com/store/apps/developer?id=Slack%20Technologies%20Inc.&hl=en)).
